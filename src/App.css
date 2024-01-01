@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+/* .fixed{
+        position:fixed;
+        width:100%;
+        z-index: 1000000;
+        top:0;
+} */
+/* body{
+    background-color: red;
+} */
+.presentacion{
+    color: white;
+    height: 550px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ilustracion h1{
+    font-size: 600%;
+    /* margin-top: 5%; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.subtitulo{
+    margin-left: 40%;
+}
+
+.bg-grey{
+    background-color: grey;
+}
+
+.collapse{
+    font-family:'Poppins', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+    margin-left: 5%;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+    margin-top: 2%;
+    font-family:'Poppins', sans-serif;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: orange;
+}
+
+/* .navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item .nav-link:active,
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item:hover .nav-link{
+    color: orange;
+} */
+
+.logo{
+    margin-left: 15%;
+}
+
+.get {
+    color: orange;
+}
+
+.it{
+    color:white;
+}
+
+/* .futurist{
+    height: 200px;
+} */
+
+.components1{
+    margin-top: 13%;
+    padding-left: 3%;
+    padding-right: 3%;
+    /* background-color: black; */
+}
+
+.navbar-toggler{
+    margin-right: 3%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
   }
+
+.descripcion{
+    font-family:"Lato", "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold; 
+    /* font-size: 40px; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.textoApp{
+    font-size: 300%;
+    color: blue;
+    font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.textoAppDescP{
+    font-size: 200%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+   background-color: rgb(32, 32, 99);
+   width: 100%;
+}
+
+.footer p{
+    color: grey;
 }
