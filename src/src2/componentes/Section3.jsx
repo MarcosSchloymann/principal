@@ -35,7 +35,7 @@ const Section3 = () => {
   <div className="container">
     {/* <!-- START THE MARKETING CONTENT  --> */}
     <div className="row">
-      <div className={"col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4"
+      <div className={"col-lg-6 col-md-12 services mt-1"
     }>
         <div className="services__content">
           {/* <div className="icon d-block fas fa-paper-plane"></div> */}
@@ -63,7 +63,7 @@ const Section3 = () => {
           </button> */}
         </div>
       </div>
-      <div className={"col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end"
+      <div className={"col-lg-6 col-md-12 services mt-1 t-end"
     }>
         <div className="services__pic">
           <img src="img/img-final/img-sec2.png" alt="marketing illustration" className="img-fluid"/>
@@ -72,21 +72,21 @@ const Section3 = () => {
     </div>
     {/* <!-- START THE WEB DEVELOPMENT CONTENT  --> */}
     <div className="row">
-      <div className={"col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start"
+      <div className={"col-lg-6 col-md-12 services mt-1 text-start"
     }>
         <div className="services__pic">
           <img src="img/img-final/2.png" alt="web development illustration" className="img-fluid"/>
         </div>
       </div>
-      <div className={"col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4"
+      <div className={"col-lg-6 col-md-12 services mt-1"
     }>
         <div className="services__content">
           {/* <div className="icon d-block fas fa-code"></div> */}
-          <h3 className="display-3--title mt-1 text-end">Diseño / Branding / Identidad 
+          <h3 className="display-3--title mt-1 t-end">Diseño / Branding / Identidad 
           <br />
           Social media
           </h3>
-          <p className="lh-lg text-end">
+          <p className="lh-lg t-end">
             Contamos con un servicio que implementa estrategias
             digitales, creación de contenidos para redes 
             Diseñamos el logo con un manual de identidad 
@@ -102,7 +102,7 @@ const Section3 = () => {
     </div>
     {/* <!-- START THE CLOUD HOSTING CONTENT  --> */}
     <div className="row">
-      <div className={"col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4"
+      <div className={"col-lg-6 col-md-12 services mt-1"
     }>
         <div className="services__content">
           {/* <div className="icon d-block fas fa-cloud-upload-alt"></div> */}
@@ -120,7 +120,7 @@ const Section3 = () => {
           </button> */}
         </div>
       </div>
-      <div className={"col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end"
+      <div className={"col-lg-6 col-md-12 services mt-1 t-end"
     }>
         <div className="services__pic">
           <img src="img/img-final/23.png" alt="cloud hosting illustration" className="img-fluid"/>
@@ -128,21 +128,21 @@ const Section3 = () => {
       </div>
     </div>
     <div className="row">
-      <div className={"col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start"
+      <div className={"col-lg-6 col-md-12 services mt-1 text-start"
     }>
         <div className="services__pic">
           <img src="img/img-final/56.png" alt="web development illustration" className="img-fluid"/>
         </div>
       </div>
-      <div className={"col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4"
+      <div className={"col-lg-6 col-md-12 services mt-1"
     }>
         <div className="services__content">
           {/* <div className="icon d-block fas fa-code"></div> */}
-          <h3 className="display-3--title mt-1 text-end">Turneros Electrónicos Interactivos
+          <h3 className="display-3--title mt-1 t-end">Turneros Electrónicos Interactivos
           <br />
           Social media
           </h3>
-          <p className="lh-lg text-end">
+          <p className="lh-lg t-end">
             Con el avance tecnológico buscamos soluciones creando turneros con novedosos diseños para agilizar y mejorar el servicio que se ofrece.
           </p>
           {/* <button type="button" className="rounded-pill btn-rounded border-primary">Ver más

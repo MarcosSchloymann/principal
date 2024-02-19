@@ -6,9 +6,9 @@ const Section1 = () => {
   <div className="container">
     <div className="row align-items-center text-white">
       {/* <!-- START THE CONTENT FOR THE INTRO  --> */}
-      <div className="col-lg-6 col-md-12 intros text-center">
+      <div className="col-lg-6 col-md-12 img-box text-center">
         <img src="img/img-final/logo-header.png" alt="
-        get-it" height="300"/>
+        get-it" height="300" width="auto"/>
         <h1 className="display-2">
           
           <span className="display-2--description lh-base">
@@ -29,7 +29,7 @@ const Section1 = () => {
         </button> */}
       </div>
       {/* <!-- START THE CONTENT FOR THE VIDEO --> */}
-      <div className="col-md-6 intros text-end">
+      <div className="col-lg-6 col-md-12 intros text-end">
         <div className="video-box">
           <img src="img/img-final/img-header.png" alt="get-it" className="img-fluid"/>
           {/* <a href="/noottro" className="glightbox position-absolute top-50 start-50 translate-middle">
@@ -43,9 +43,11 @@ const Section1 = () => {
       </div>
     </div>
   </div>
-  <svg xmlns="http://www.w3.org/2000/svg" className='svg1' viewBox="0 0 1440 320"><path fill="#DA952E" fill-opacity="1" d="M0,160L60,181.3C120,203,240,245,360,245.3C480,245,600,203,720,160C840,117,960,75,1080,80C1200,85,1320,139,1380,165.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+
  
-  <svg xmlns="http://www.w3.org/2000/svg" className='svg2' viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L60,181.3C120,203,240,245,360,245.3C480,245,600,203,720,160C840,117,960,75,1080,80C1200,85,1320,139,1380,165.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" className='svg1' viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L60,181.3C120,203,240,245,360,245.3C480,245,600,203,720,160C840,117,960,75,1080,80C1200,85,1320,139,1380,165.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+ 
+  {/* <svg xmlns="http://www.w3.org/2000/svg" className='svg2' viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L60,181.3C120,203,240,245,360,245.3C480,245,600,203,720,160C840,117,960,75,1080,80C1200,85,1320,139,1380,165.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg> */}
   </section>
   )
 }
