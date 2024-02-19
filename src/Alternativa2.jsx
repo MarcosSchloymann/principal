@@ -10,6 +10,7 @@ import Section6 from './src2/componentes/Section6';
 import Section7 from './src2/componentes/Section7';
 import Footer from './src2/componentes/Footer';
 import useScrollPosition from './hooks/useScroll';
+import SecImg from './src2/componentes/SecImg';
 
 const Alternativa2 = () => {
 
@@ -19,14 +20,13 @@ const Alternativa2 = () => {
     <div>
         <NavBar2/>
         <Section1/>
-        <Section2
+        {/* <Section2
         scrollPosition={scrollPosition}
-        />
+        /> */}
         <Section3
-        scrollPosition={scrollPosition}
         />
-        <Section4/>
-        <Section5
+        {/* <Section4/> */}
+        {/* <Section5
         scrollPosition={scrollPosition}
         />
         <Section6
@@ -34,7 +34,8 @@ const Alternativa2 = () => {
         />
         <Section7
         scrollPosition={scrollPosition}
-        />
+        /> */}
+        <SecImg/>
         <Footer/>
     </div>
   )

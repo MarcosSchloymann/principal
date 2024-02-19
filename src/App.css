@@ -41,13 +41,6 @@
     font-family:'Poppins', sans-serif;
 }
 
-.nav-link{
-    color: white;
-}
-
-.nav-link:hover{
-    color: orange;
-}
 
 /* .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item .nav-link:active,
