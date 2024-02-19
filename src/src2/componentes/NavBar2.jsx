@@ -15,11 +15,11 @@ const NavBar2 = () => {
             <ul className="navbar-nav">
               <li className="nav-item"><a className="nav-link hover" aria-current="page" href="index.html">Inicio</a></li>
               <li className="nav-item"><a className="nav-link" href="#services">Servicios</a></li>
-              <li className="nav-item"><a className="nav-link" href="#testimonials">Testimonios</a></li>
-              <li className="nav-item"><a className="nav-link" href="#faq">Preguntas más frecuentes</a></li>
-              <li className="nav-item"><a className="nav-link" href="#portfolio">Portfolio</a></li>
-              <li className="nav-item"><a className="nav-link" href="#contact">contacto</a>
-              </li>
+              <li className="nav-item"><a className="nav-link" href="#testimonials">Proyectos</a></li>
+              <li className="nav-item"><a className="nav-link" href="#faq">Turneros</a></li>
+              <li className="nav-item"><a className="nav-link" href="#portfolio">Redes</a></li>
+              {/* <li className="nav-item"><a className="nav-link" href="#contact">contacto</a>
+              </li> */}
             </ul>
             <button type="button" className="rounded-pill btn-rounded">
               +1 728365413
