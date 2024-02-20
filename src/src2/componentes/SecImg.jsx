@@ -2,7 +2,7 @@ import React from 'react'
 
 const SecImg = () => {
   return (
-    <div className='sec-img'>
+    <div id='sec-img' className='sec-img'>
         <br />
     <h1 className='sec-img-title'>WEB/HOSTING/DOMINIOS</h1>
     <div className=' d-flex justify-content-center'>

@@ -7,7 +7,7 @@ const Section1 = () => {
     <div className="row align-items-center text-white">
       {/* <!-- START THE CONTENT FOR THE INTRO  --> */}
       <div className="col-lg-6 col-md-12 img-box text-center">
-        <img src="img/img-final/logo-header.png" alt="
+        <img src="img/img-final/logo-navbar.png" alt="
         get-it" height="300" width="auto"/>
         <h1 className="display-2">
           

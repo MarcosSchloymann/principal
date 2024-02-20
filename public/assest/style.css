@@ -11037,7 +11037,7 @@ textarea.form-control-lg {
 
 .footer {
   padding-top: 1rem;
-  background-color: #151414;
+  background: linear-gradient(10deg, rgba(255,255,255,1) 0%, rgba(127,8,190,1) 0%, rgba(0,0,0,1) 100%, rgba(255,255,255,1) 100%);
 }
 
 .contact-box {
@@ -11045,7 +11045,7 @@ textarea.form-control-lg {
 }
 .contact-box__icon {
   width: 2rem;
-  stroke: #9926f0;
+  stroke: rgb(211, 146, 46);
   padding-top: 0.5rem;
 }
 @media (min-width: 576px) {
