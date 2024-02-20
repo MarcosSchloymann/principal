@@ -67,11 +67,11 @@ const Footer = () => {
               </div>
 
               <div className="col-lg-6 col-md-6 d-flex justify-content-center">
-                <a href="/"><i className="fab fa-facebook" style={{ color: "rgb(211, 146, 46)" }}></i></a>
-                <a href="/"><i className="fab fa-twitter" style={{ color: "rgb(211, 146, 46)" }}></i></a>
-                <a href="/"><i className="fab fa-github" style={{ color: "rgb(211, 146, 46)" }}></i></a>
-                <a href="/"><i className="fab fa-linkedin" style={{ color: "rgb(211, 146, 46)" }}></i></a>
-                <a href="/"><i className="fab fa-instagram" style={{ color: "rgb(211, 146, 46)" }}></i></a>
+                <a href="/"><i className="fab fa-facebook"></i></a>
+                <a href="/"><i className="fab fa-twitter"></i></a>
+                <a href="/"><i className="fab fa-github"></i></a>
+                <a href="/"><i className="fab fa-linkedin"></i></a>
+                <a href="/"><i className="fab fa-instagram"></i></a>
               </div>
             </div>
           </div>

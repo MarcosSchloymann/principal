@@ -4101,6 +4101,7 @@ textarea.form-control-lg {
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
   color:rgb(211, 146, 46);
+  text-decoration:underline;
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
@@ -11096,14 +11097,15 @@ textarea.form-control-lg {
 .footer-sm a i {
   font-size: 1rem;
   margin-left: 1rem;
+  color: rgb(211, 146, 46);
 }
 @media (min-width: 576px) {
   .footer-sm a i {
     font-size: 1.6rem;
   }
 }
-.footer-sm a:hover {
-  color: #9926f0;
+.footer-sm a i:hover {
+  border: solid;
 }
 
 .campany-list {
@@ -11192,7 +11194,6 @@ textarea.form-control-lg {
 }
 
 
-
 .sec-img{
   background-color: rgb(235, 202, 149);
 }
@@ -11203,5 +11204,6 @@ textarea.form-control-lg {
   font-weight: bold;
   color: white;
 }
+
 
 /*# sourceMappingURL=style.css.map */
