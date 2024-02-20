@@ -22,7 +22,7 @@ const NavBar2 = () => {
               </li> */}
             </ul>
             <button type="button" className="rounded-pill btn-rounded">
-              +1 728365413
+              ¿Hablamos?
               <span>
                 {/* <i className="fas fa-phone-alt"></i> */}
                 <i class="fa fa-whatsapp" aria-hidden="true"></i>

@@ -81,7 +81,7 @@ const Footer = () => {
         <div className="container mt-5">
           <div className="row text-white justify-content-center mt-3 pb-3">
             <div className="col-12 col-sm-6 col-lg-6 mx-auto ">
-              <h5 className="text-capitalize fw-bold d-flex justify-content-center">get !t</h5>
+              <h5 className="fw-bold d-flex justify-content-center">get !t</h5>
               <div className='d-flex justify-content-center'>
                 <hr className="bg-white d-inline-block mb-4" style={{ width: "60px", height: "2px" }} />
               </div>
