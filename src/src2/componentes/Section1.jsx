@@ -29,7 +29,7 @@ const Section1 = () => {
         </button> */}
       </div>
       {/* <!-- START THE CONTENT FOR THE VIDEO --> */}
-      <div className="col-lg-6 col-md-12 intros text-end">
+      <div className="col-lg-6 col-md-12 intros text-center">
         <div className="video-box">
           <img src="img/img-final/img-header.png" alt="get-it" className="img-fluid"/>
           {/* <a href="/noottro" className="glightbox position-absolute top-50 start-50 translate-middle">
