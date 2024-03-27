@@ -18,15 +18,15 @@ const Alternativa2 = () => {
 
   return (
     <div>
-        <NavBar2/>
-        <Section1/>
-        {/* <Section2
+      <NavBar2 />
+      <Section1 />
+      {/* <Section2
         scrollPosition={scrollPosition}
         /> */}
-        <Section3
-        />
-        {/* <Section4/> */}
-        {/* <Section5
+      <Section3
+      />
+      {/* <Section4/> */}
+      {/* <Section5
         scrollPosition={scrollPosition}
         />
         <Section6
@@ -35,8 +35,8 @@ const Alternativa2 = () => {
         <Section7
         scrollPosition={scrollPosition}
         /> */}
-        <SecImg/>
-        <Footer/>
+      <SecImg />
+      <Footer />
     </div>
   )
 }

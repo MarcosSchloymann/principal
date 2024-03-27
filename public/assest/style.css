@@ -6219,7 +6219,7 @@ textarea.form-control-lg {
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem grey !important;
+  box-shadow: 0 0.010rem 1rem grey !important;
 }
 
 .shadow-sm {
@@ -10802,9 +10802,9 @@ textarea.form-control-lg {
 }
 
 .menu {
-  background-color: #000;
-  /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(138,138,139,1) 56%, rgba(144,144,145,1) 100%, rgba(0,212,255,1) 100%); */
-}
+  background: rgb(255,255,255);
+  background: linear-gradient(10deg, rgba(255,255,255,1) 0%, rgba(127,8,190,1) 0%, rgba(0,0,0,1) 100%, rgba(255,255,255,1) 100%);
+ }
 
 .menu li {
   padding: 0 0.7rem;
