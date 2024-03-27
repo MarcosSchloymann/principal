@@ -567,6 +567,15 @@ progress {
   width: auto;
 }
 
+@media screen and (max-width:990px) {
+  .img-fluid{
+    height: 400px;
+    width: auto;
+  }
+}
+
+
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
