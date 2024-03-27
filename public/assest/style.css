@@ -273,10 +273,10 @@ figure {
   margin: 0 0 1rem;
 }
 
-img,
+/* img,
 svg {
   vertical-align: middle;
-}
+} */
 
 table {
   caption-side: bottom;
@@ -10831,6 +10831,7 @@ textarea.form-control-lg {
 
 .intros .video-box {
   position: relative;
+  margin-left: 20%;
 }
 .intros .video-box a span i {
   font-size: 6rem;
@@ -11199,9 +11200,19 @@ textarea.form-control-lg {
   }
   .svg1{
     fill: white;
+    display: none;
   }
 }
 
+@media screen and (max-width:990px) {
+  .svg1{
+    display: none;
+  }
+}
+
+.svg1{
+  margin-top: -7rem;
+}
 
 .sec-img{
   background-color: rgb(235, 202, 149);
